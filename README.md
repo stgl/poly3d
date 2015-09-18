@@ -21,7 +21,7 @@ Likewise, feel free to fork this repository to parallelize or rewrite other subr
 
 The primary `poly3d` manual is [Thomas, 1993](http://searchworks.stanford.edu/view/2830996). It covers the details of the boundary value problems behind `poly3d` and explains the input and output file formats.
 
-Michele Cooke (University of Massachussetts, Amherst) maintains [a `poly3d` tutorial page](http://www.geo.umass.edu/faculty/cooke/software.html) that previously included the thesis source code provided here. The original `poly3d` tutorial is available there, as are several examples and other software packages. Other examples are available on the Stanford Structural Geology and Geomechanics [website](https://pangea.stanford.edu/research/geomech/Software/Software.htm).
+Prof. Michele Cooke (University of Massachussetts, Amherst) maintains [a `poly3d` tutorial page](http://www.geo.umass.edu/faculty/cooke/software.html) that previously included the thesis source code provided here. The original `poly3d` tutorial is available there, as are several examples and other software packages. Other examples are available on the Stanford Structural Geology and Geomechanics [website](https://pangea.stanford.edu/research/geomech/Software/Software.htm).
 
 ### Compiling `poly3d`
 
@@ -41,11 +41,11 @@ Please cite this thesis and related publications if you use `poly3d` in publishe
 
 Thomas, A. L., 1993, Poly3D: A three-dimensional, polygonal element, displacement discontinuity boundary element computer program with applications to fractures, faults, and cavities in the Earth's crust (Doctoral dissertation, Stanford University).
 
-To see a recent example of poly3d in action, take a look at [this 2014 paper by Fattaruso, Cooke, and Dorsey](http://dx.doi.org/10.1130/GES01050.1) on uplift produced by tectonic activity in the Coachella area.
+To see a recent example of `poly3d` in action, take a look at [this 2014 paper by Fattaruso, Cooke, and Dorsey](http://dx.doi.org/10.1130/GES01050.1) on uplift produced by tectonic activity in the Coachella area.
 
 Additional references to come.
 
 ### Contact
-Questions? Comments? Complaints?\n
-Robert Sare rmsare@stanford.edu\n
+Questions? Comments? Complaints?  
+Robert Sare [rmsare@stanford.edu](mailto:rmsare@NOSPAMstanford.edu)  
 **[STGL](https://pangea.stanford.edu/researchgroups/tectonicgeomorph/)**
