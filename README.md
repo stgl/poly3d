@@ -33,7 +33,7 @@ Both versions of `poly3d` must be compiled with the `-O2` flag. Over-optimizatio
 
 ### Contributors 
 
-`poly3d` and a related commercial software package were developed by researchers and students of David Pollard and Atilla Aydin associated with the Stanford Rock Fracture Project and the [Structural Geology and Geomechanics research group](https://structuralgeology.stanford.edu/). This repository is intended for academic use only, and is solely derived from the publicly available source code printed in Thomas, 1993 with modifications to fix the "shadow effect."
+`poly3d` and a related commercial software package were developed by researchers and students of Profs. David Pollard and Atilla Aydin associated with the Stanford Rock Fracture Project and the [Structural Geology and Geomechanics research group](https://structuralgeology.stanford.edu/). This repository is intended for academic use only, and is solely derived from the publicly available source code printed in Thomas, 1993 with modifications to fix the "shadow effect."
 
 ### References
 
