@@ -4,7 +4,7 @@ This repository reproduces code for `poly3d`, a boundary element method program 
 
 ## poly3d_parallel
 
-A C++ patch that parallelizes parts of `poly3d` is available for beta testing. This version, called `poly3d_parallel`, can currently handle complex fault models with more than 25K elements in around 18 hours using two nodes with dual 2.2GHz, 16-core CPUs. Please [get in touch](mailto:rmsare@stanford.edu) if you are interested in testing `poly3d_parallel` as part of an academic project.
+A C++ patch that parallelizes parts of `poly3d` using OpenMPI and Elemental is available for beta testing. This version, called `poly3d_parallel`, can currently handle complex fault models with more than 25K elements in around 18 hours using two nodes with dual 2.2GHz, 16-core CPUs. Fault models that would take a week or more to run on a high-performance computer can be run in a reasonable amount of time on a cluster. Please [get in touch](mailto:rmsare@stanford.edu) if you are interested in using `poly3d_parallel` as part of an academic project.
 
 ## TODO
 
