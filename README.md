@@ -45,8 +45,7 @@ To see a recent example of poly3d in action, take a look at [this 2014 paper by 
 
 Additional references to come.
 
+### Contact
 Questions? Comments? Complaints?
-
 Robert Sare rmsare@stanford.edu
-
-[STGL]()
+**[STGL](https://pangea.stanford.edu/researchgroups/tectonicgeomorph/)**
