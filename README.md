@@ -1,17 +1,17 @@
 # poly3d
 
-This repository reproduces code for `poly3d`, a boundary element method program first released in the M.S. thesis Thomas, 1993.
+This repository reproduces code for `poly3d`, a boundary element method program first released in the M.S. thesis Thomas, 1993. It is intended to make this legacy code easily available for use in structural geology, geomechanics, and active tectonics research.
 
 ## poly3d_parallel
 
-A C++ patch that parallelizes parts of `poly3d` is available for beta testing. This version, called `poly3d_parallel`, can currently handle complex fault models with up to 25K elements in around 18 hours using two nodes with dual 2.2GHz, 16-core CPUs. Please contact [rmsare@stanford.edu](rmsare@stanford.edu) if you are interested in testing `poly3d_parallel` as part of an academic project.
+A C++ patch that parallelizes parts of `poly3d` is available for beta testing. This version, called `poly3d_parallel`, can currently handle complex fault models with more than 25K elements in around 18 hours using two nodes with dual 2.2GHz, 16-core CPUs. Please [get in touch](mailto:rmsare@stanford.edu) if you are interested in testing `poly3d_parallel` as part of an academic project.
 
 ## TODO
 
 `poly3d` needs
 * Unit tests
 * Further parallelization
-* Object-oriented framework
+* A rewrite using an object-oriented framework
 
 Traditionally, `poly3d` has been used in regional studies employing relatively coarse fault meshes. If you use the original or parallel version successfully with a complex model with intersecting faults or a fine mesh, please consider sharing your input file as a test for future releases.
 
@@ -19,9 +19,9 @@ Likewise, feel free to fork this repository to parallelize or rewrite other subr
 
 ## Documentation
 
-The primary `poly3d` manual is Thomas, 1993. It covers the details of the boundary value problems behind `poly3d` and explains the input and output file formats.
+The primary `poly3d` manual is [Thomas, 1993](http://searchworks.stanford.edu/view/2830996). It covers the details of the boundary value problems behind `poly3d` and explains the input and output file formats.
 
-Michele Cooke (University of Massachussetts, Amherst) maintains a `poly3d` tutorial page that previously included the thesis source code provided here. The original `poly3d` tutorial is available there, as are several examples and other software packages. Other examples are available on the Stanford Structural Geology and Geomechanics group website. 
+Michele Cooke (University of Massachussetts, Amherst) maintains [a `poly3d` tutorial page](http://www.geo.umass.edu/faculty/cooke/software.html) that previously included the thesis source code provided here. The original `poly3d` tutorial is available there, as are several examples and other software packages. Other examples are available on the Stanford Structural Geology and Geomechanics [website](https://pangea.stanford.edu/research/geomech/Software/Software.htm).
 
 ### Compiling `poly3d`
 
@@ -33,7 +33,7 @@ Both versions of `poly3d` must be compiled with the `-O2` flag. Over-optimizatio
 
 ### Contributors 
 
-`poly3d` and a related commercial software package, ibem3d, were developed by researchers and students of David Pollard and Atilla Aydin associated with the Stanford Rock Fracture Project and the Structural Geology and Geomechanics research group. This repository is intended for academic use only, and is solely derived from the publicly available source code printed in Thomas, 1993 with modifications to fix the "shadow effect."
+`poly3d` and a related commercial software package were developed by researchers and students of David Pollard and Atilla Aydin associated with the Stanford Rock Fracture Project and the [Structural Geology and Geomechanics research group](https://structuralgeology.stanford.edu/). This repository is intended for academic use only, and is solely derived from the publicly available source code printed in Thomas, 1993 with modifications to fix the "shadow effect."
 
 ### References
 
@@ -41,6 +41,12 @@ Please cite this thesis and related publications if you use `poly3d` in publishe
 
 Thomas, A. L., 1993, Poly3D: A three-dimensional, polygonal element, displacement discontinuity boundary element computer program with applications to fractures, faults, and cavities in the Earth's crust (Doctoral dissertation, Stanford University).
 
+To see a recent example of poly3d in action, take a look at [this 2014 paper by Fattaruso, Cooke, and Dorsey](http://dx.doi.org/10.1130/GES01050.1) on uplift produced by tectonic activity in the Coachella area.
+
+Additional references to come.
+
 Questions? Comments? Complaints?
+
 Robert Sare rmsare@stanford.edu
+
 [STGL]()
