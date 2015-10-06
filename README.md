@@ -13,7 +13,7 @@ A C++ patch that parallelizes parts of `poly3d` using OpenMPI and Elemental is a
 * Further parallelization
 * A rewrite using an object-oriented framework
 
-Traditionally, `poly3d` has been used in regional studies employing relatively coarse fault meshes. If you use the original or parallel version successfully with a complex model with intersecting faults or a fine mesh, please consider sharing your input file as a test for future releases.
+Traditionally, `poly3d` has been used in regional studies employing relatively coarse fault meshes. If you use the original or parallel version successfully with a complex model with nearly intersecting faults or a fine mesh, please consider sharing your input file as a test for future releases.
 
 Likewise, feel free to fork this repository to parallelize or rewrite other subroutines.
 
