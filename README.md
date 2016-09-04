@@ -25,6 +25,8 @@ Prof. Michele Cooke (University of Massachussetts, Amherst) maintains [a `poly3d
 
 ### Compiling `poly3d`
 
+The makefile provided here assumes you are using a recent version of `gcc`. Mac OS X 10.8 and above alias `gcc` to a `clang` front-end; to compile `poly3d` in those environments, you must [install `gcc` using Homebrew or macports](http://apple.stackexchange.com/questions/38222/how-do-i-install-gcc-via-homebrew).
+
 Both versions of `poly3d` must be compiled with the `-O2` flag. Over-optimization (e.g. `-O3` or `-ffast-math`) can lead to unpredictable numerical errors and large singularities in the resulting displacement fields. Just say no!
 
 ### Using `poly3d`
