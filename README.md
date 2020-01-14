@@ -10,7 +10,7 @@ A C++ patch that parallelizes parts of `poly3d` using OpenMPI and Elemental is a
 
 The primary `poly3d` manual is [Thomas, 1993](http://searchworks.stanford.edu/view/2830996). It covers the details of the boundary value problems behind `poly3d` and explains the input and output file formats.
 
-Prof. Michele Cooke (University of Massachussetts, Amherst) maintains [a `poly3d` tutorial page](http://www.geo.umass.edu/faculty/cooke/software.html) that previously included the thesis source code provided here. The original `poly3d` tutorial is available there, as are several examples and other software packages. 
+Prof. Michele Cooke (University of Massachussetts, Amherst) maintains [a `poly3d` tutorial page](http://www.geo.umass.edu/faculty/cooke/poly3d/) that previously included the thesis source code provided here. The original `poly3d` tutorial is available there, as are several examples and other software packages. 
 
 Other examples are available on the Stanford Structural Geology and Geomechanics [website](https://pangea.stanford.edu/research/geomech/Software/Software.htm).
 
